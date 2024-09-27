@@ -3,7 +3,10 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-   const stack=[] 
+   const stack=[];
+   const pairs={
+    
+   }
 };
 
 module.exports = { isValid };
