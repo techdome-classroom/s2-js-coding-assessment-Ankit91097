@@ -10,7 +10,9 @@ var isValid = function(s) {
     '[':']'
    };
    for(let char of s){
-    if(Object.keys(pairs).includes(char))
+    if(Object.keys(pairs).includes(char)){
+        stack.push(char);
+    }
    }
 };
 
