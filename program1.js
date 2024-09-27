@@ -13,6 +13,10 @@ var isValid = function(s) {
     if(Object.keys(pairs).includes(char)){
         stack.push(char);
     }
+    else{
+        const top = stack.pop();
+        if(!top)
+    }
    }
 };
 
