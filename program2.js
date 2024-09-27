@@ -5,7 +5,8 @@
 var romanToInt = function(s) {
     const romanNumerals={
         'I':1,
-        ''
+        'V':5,
+        
     }
 };
 
