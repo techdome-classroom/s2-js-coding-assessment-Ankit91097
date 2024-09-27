@@ -15,7 +15,7 @@ var isValid = function(s) {
     }
     else{
         const top = stack.pop();
-        if(!top)
+        if(!top||)
     }
    }
 };
